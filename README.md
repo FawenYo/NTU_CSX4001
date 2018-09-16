@@ -8,7 +8,7 @@ What's this?
 ------
 This repo is for National Taiwan University's Data Science Programming course (Course No.4001).
 
-All the work are written with R code.
+All the works are written with R code.
 
 
 
