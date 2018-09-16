@@ -1,6 +1,6 @@
 <h1 align="center">NTU CSX_4001 R Coding</h1>
 
-![NTU](https://imgur.com/a/zsvGwvY "NTU Logo")
+![NTU](https://imgur.com/a/zsvGwvY.jpg "NTU Logo")
 
 
 
@@ -21,6 +21,7 @@ About the dev & contact info
 -----
 
 |Author| FawenYo|
+|---|---
 |E-mail|b07607001@g.ntu.edu.tw
 |XDA Account|https://forum.xda-developers.com/member.php?u=7704655
 |TG Account|@MyStyleYo
