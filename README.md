@@ -1,6 +1,6 @@
 <h1 align="center">NTU CSX_4001 R Coding</h1>
 
-![NTU](https://imgur.com/a/zsvGwvY.jpg "NTU Logo")
+![NTU](https://i.imgur.com/mphPxIM.png "NTU Logo")
 
 
 
