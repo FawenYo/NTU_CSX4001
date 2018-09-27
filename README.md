@@ -56,4 +56,4 @@ In home:
 
 * 建立github連結
 
-* R爬蟲HTML路徑 
+* R爬蟲HTML路徑 https://fawenyo.github.io/NTU_CSX4001/week2/homework2/WebCrawling.html
