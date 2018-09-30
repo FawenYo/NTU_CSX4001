@@ -16,6 +16,7 @@ Work List
 ------
 * [week1](https://github.com/FawenYo/NTU_CSX4001/tree/master/week1 "week1")
 * [week2](https://github.com/FawenYo/NTU_CSX4001/tree/master/week2 "week2")
+* [week3](https://github.com/FawenYo/NTU_CSX4001/tree/master/week3 "week3")
 
 
 
@@ -36,9 +37,9 @@ Feel free to PM :)
 week1
 ------
 * 建立個人`Github帳號`
-* 建立本課程專用`Repository`
-* 在該 repository 當中上傳建立一命名為 `week_1(or task_1, hw_1)`的資料夾
-* 於`該資料夾`中，上傳本周練習的`成果檔案(ex: hw_1_answers.R)`
+* 建立課程專用`Repository`
+* 在 repository 當中上傳建立一命名為 `week1`的資料夾
+* 於`week1 資料夾`中，上傳練習的`成果檔案(hw_1_answers.R)`
 
 week2
 ------
@@ -57,3 +58,14 @@ In home:
 * 建立github連結
 
 * R爬蟲HTML路徑 https://fawenyo.github.io/NTU_CSX4001/week2/homework2/WebCrawling.html
+
+week3
+------
+In class:
+
+* 基本認識資料視覺化
+* 修復week2 rmd項目
+
+In home:
+* 完成基本畫圖練習 (NBA_Player_Data.R , NBA_Player_Data.Rmd, NBA_Player_Data.html)
+* 新增各週README.md 內容

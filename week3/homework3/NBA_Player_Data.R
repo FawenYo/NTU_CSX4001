@@ -1,0 +1,24 @@
+library(ggplot2)
+library(plotly)
+
+mydata = read.csv("Seasons_Stats.csv")
+summary(mydata)
+
+qplot(x=Age,                               
+      y=ThreePoints,                              
+      data=mydata,                      
+      geom="point",                        
+      main = "NBA players",  
+      xlab="Age",                          
+      ylab="3PS/G",                    
+      color= Pos                    
+      )
+
+
+my.plot3 <- ggplot(mydata, aes(x = Age))
+my.plot3 <- my.plot3 +
+  geom_histogram(binwidth = 0.2, fill = "steelblue")
+my.plot3
+
+
+plot_ly(mydata, x = ~Age, color = ~Pos, type = "box")
