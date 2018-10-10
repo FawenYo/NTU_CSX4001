@@ -1,0 +1,26 @@
+#WEB CRAWLER
+library(rvest)
+library(magrittr)
+title=read_html("https://technews.tw/") %>%
+html_nodes(".entry-title a , #album_test1 a , #album_test1 h3") %>%
+html_text() %>% iconv("UTF-8")
+title
+
+
+#Phrasing and Clean meaningless text
+library("jiebaR")
+library("tm")
+Sys.setlocale(category = "LC_ALL", locale = "cht")
+cc = worker()
+new_user_word(cc,'Windows 10',"n")
+new_user_word(cc,'พิพ๗',"n")
+cc[title]
+
+tabledata <-table(cc[title])
+tabledata
+
+data.frame(tabledata)
+
+#Show wordcloud
+library(wordcloud2)
+wordcloud2(tabledata)
