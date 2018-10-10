@@ -8,26 +8,28 @@ What's this?
 ------
 This repo is for National Taiwan University's Data Science Programming course (Course No.4001).
 
-All the works are written with R code.
+The course is to learn R coding.
 
 
 
 Work List
 ------
-* [week1](https://github.com/FawenYo/NTU_CSX4001/tree/master/week1 "week1")
-* [week2](https://github.com/FawenYo/NTU_CSX4001/tree/master/week2 "week2")
-* [week3](https://github.com/FawenYo/NTU_CSX4001/tree/master/week3 "week3")
+|Week| Link|
+|---|---
+|Week1 (09/13/18)|[Week1 Link](https://github.com/FawenYo/NTU_CSX4001/tree/master/week1 "week1")
+|Week2 (09/20/18)|[Week2 Link](https://github.com/FawenYo/NTU_CSX4001/tree/master/week2 "week2")
+|Week3 (09/27/18)|[Week3 Link](https://github.com/FawenYo/NTU_CSX4001/tree/master/week3 "week3")
+|Week4 (10/04/18)|[Week4 Link](https://github.com/FawenYo/NTU_CSX4001/tree/master/week4 "week4")
 
 
 
 About the dev & contact info
 -----
 
-|Author| FawenYo,NTU AGEC|
+|Author| Info|
 |---|---
+|FawenYo|NTU AGEC student
 |E-mail|b07607001@g.ntu.edu.tw
-|XDA Account|[Click here](http://blog.csdn.net/guodongxiaren "XDA-Developers")
-|TG Account|@MyStyleYo
 
 If you want to contact me
 Feel free to PM :)
@@ -69,3 +71,14 @@ In class:
 In home:
 * 完成基本畫圖練習 (NBA_Player_Data.R , NBA_Player_Data.Rmd, NBA_Player_Data.html)
 * 新增各週README.md 內容
+
+week4
+------
+In class:
+
+* 基本認識Wordcloud
+
+In home:
+* 完成文字雲繪圖 (WordCloud.R, WordCloud.Rmd, WordCloud.html)
+* 完成進階Leaflet地圖
+* 新增week2 OOXX遊戲項目
