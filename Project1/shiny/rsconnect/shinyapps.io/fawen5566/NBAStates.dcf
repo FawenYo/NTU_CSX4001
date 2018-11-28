@@ -1,0 +1,12 @@
+name: NBAStates
+title: NBAStates
+username:
+account: fawen5566
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 594083
+bundleId: 1726075
+url: https://fawen5566.shinyapps.io/NBAStates/
+when: 1543413785.42781
+asMultiple: FALSE
+asStatic: FALSE

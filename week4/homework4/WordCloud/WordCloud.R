@@ -12,7 +12,7 @@ library("jiebaR")
 library("tm")
 Sys.setlocale(category = "LC_ALL", locale = "cht")
 cc = worker()
-new_user_word(cc,'Windows 10',"n")
+new_user_word(cc,'Pixel3',"n")
 new_user_word(cc,'¾Ô¾÷',"n")
 cc[title]
 
@@ -20,6 +20,10 @@ tabledata <-table(cc[title])
 tabledata
 
 data.frame(tabledata)
+
+doc <- Corpus(VectorSource(title))
+toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+doc <- tm_map(doc, toSpace, "ªº")
 
 #Show wordcloud
 library(wordcloud2)

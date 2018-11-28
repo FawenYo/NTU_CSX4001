@@ -1,0 +1,56 @@
+---
+title: "NBAStates"
+author: "FawenYo"
+date: "2018年11月28日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Libraries
+```{R Library,warning=FALSE}
+library(rvest)
+library(dplyr)
+library(plotly)
+library(readr)
+```
+
+### 讀取資料
+
+```{r data,warning=FALSE}
+states = read_csv("Seasons_Stats.csv")
+```
+
+##TS%
+
+```{r}
+tsp_by_year = states %>% group_by(Year) %>% summarise(mean=mean(TSp, na.rm=TRUE))
+
+plot_ly(tsp_by_year, x= tsp_by_year$Year ,y= tsp_by_year$mean, type = 'scatter',mode="markers",text = ~paste('Year: ', Year))
+```
+
+##2分球命中率變化
+
+```{r}
+TwoPp_by_year = states %>% group_by(Year) %>% summarise(mean=mean(TwoPp, na.rm=TRUE))
+
+plot_ly(TwoPp_by_year, x= TwoPp_by_year$Year ,y= TwoPp_by_year$mean, type = 'scatter',mode="markers",text = ~paste('Year: ', Year))
+```
+
+##3分球命中率變化
+
+```{r}
+ThreePp_by_year = states %>% group_by(Year) %>% summarise(mean=mean(ThreePp, na.rm=TRUE))
+
+plot_ly(ThreePp_by_year, x= TwoPp_by_year$Year ,y= ThreePp_by_year$mean, type = 'scatter',mode="markers",text = ~paste('Year: ', Year))
+```
+
+##罰球出手數變化
+
+```{r}
+FTA_by_year = states %>% group_by(Year) %>% summarise(mean=mean(FTA, na.rm=TRUE))
+
+plot_ly(FTA_by_year, x= FTA_by_year$Year ,y= FTA_by_year$mean, type = 'scatter',mode="markers",text = ~paste('Year: ', Year))
+```
