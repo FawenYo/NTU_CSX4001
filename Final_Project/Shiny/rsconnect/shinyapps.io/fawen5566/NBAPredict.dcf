@@ -1,0 +1,12 @@
+name: NBAPredict
+title: NBAPredict
+username:
+account: fawen5566
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 625184
+bundleId: 1791747
+url: https://fawen5566.shinyapps.io/NBAPredict/
+when: 1546353745.88839
+asMultiple: FALSE
+asStatic: FALSE
