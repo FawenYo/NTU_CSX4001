@@ -1,9 +1,12 @@
-<h1 align="center">NTU CSX_4001 R Coding</h1>
+<h1 align="center">NTU CSX_4001 -- NBA 比賽數據預測</h1>
 
 ![NBA](https://imgur.com/F3jo6L8.png "NBA Logo")
 
+
 ------
-<h2 align="center">NBA 比賽數據預測</h2>
+本專案系統旨在分析NBA各項數據，並利用近期數據建立預測模型。
+
+
 
 網頁呈現
 ------
