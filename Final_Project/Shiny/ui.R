@@ -67,7 +67,7 @@ shinyUI(
                              choices = list("random_forest_raw", "nn_raw","ensemble_raw"
                                             ,"random_forest_raw+advanced", "nn_raw+advanced","ensemble_raw+advanced"
                                             ,"random_forest_self_select1", "nn_self_select1"
-                                            ,"random_forest__self_select2", "nn__self_select2","ensemble_total2"))),
+                                            ,"random_forest_self_select2", "nn_self_select2","ensemble_total"))),
                tags$h2("今日比賽預測及賠率預估"),br(),
                mainPanel(
                  tableOutput("view")
